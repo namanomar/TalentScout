@@ -1,0 +1,11 @@
+spacy
+json
+PyPDF2
+requests
+openai
+generativeai
+pdfminer.six
+docx2txt
+pandas
+nltk
+numpy
