@@ -87,7 +87,7 @@ if uploaded_file:
         
         # Sidebar: Candidate Info
         st.sidebar.write(f"**Full Name:** {name if name else 'N/A'}")
-        st.sidebar.write(f"**Email:** {email[9:] if email else 'N/A'}")
+        st.sidebar.write(f"**Email:** {email if email else 'N/A'}")
         st.sidebar.write(f"**Phone:** {phone if phone else 'N/A'}")
         st.sidebar.write(f"**Experience:** {years_of_experience} years")
         st.sidebar.write(f"**Education:** {education if education else 'N/A'}")
